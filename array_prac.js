@@ -119,8 +119,8 @@ leastFavMovies[0]= "Vivegam";
 leastFavMovies[1]= "Varisu";
 leastFavMovies[2]= "Mersal";
 movies = movies.concat(leastFavMovies);
-movies.sort();
-window.console.log(movies.reverse());
+movies.sort().reverse();
+window.console.log(movies);
 
 
 // step 10
